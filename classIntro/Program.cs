@@ -41,5 +41,5 @@ namespace classIntro
         public string kursAdi { get; set; }
         public int degisken { get; set; }
         public string  egitmen { get; set; }
-}
+    }
 }
