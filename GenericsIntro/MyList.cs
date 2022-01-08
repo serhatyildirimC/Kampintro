@@ -24,5 +24,9 @@ namespace GenericsIntro
             }
             items[items.Length-1] = item;
         }
+        public T[] Items
+        {
+            get { return items; }
+        }
     }
 }

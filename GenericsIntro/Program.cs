@@ -12,7 +12,11 @@ namespace GenericsIntro
             isimler.Add("seko");
             isimler.Add("umut");
             isimler.Add("büş");
-            Console.WriteLine();
+
+            foreach (var item in isimler.Items)
+            {
+                Console.WriteLine(item);
+            }
 
 
 
